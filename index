@@ -73,17 +73,45 @@
 
 <div class="paineis">
 
-  <a class="painel-btn" href="https://md.haskellbi.com.br">
-    <div class="painel-icon">&#128230;</div>
-    <div class="painel-nome">Materiais de Divulgação</div>
-    <div class="painel-desc">Estoque, cobertura, custo e histórico de vendas dos MDs</div>
-    <div class="badge badge-ativo">Ativo</div>
-  </a>
+  <div class="painel-btn em-breve">
+    <div class="painel-icon">&#128200;</div>
+    <div class="painel-nome">Sell-in Dionísio</div>
+    <div class="painel-desc">Sell-in das regiões do GRV Dionísio</div>
+    <div class="badge badge-breve">Em breve</div>
+  </div>
+
+  <div class="painel-btn em-breve">
+    <div class="painel-icon">&#128200;</div>
+    <div class="painel-nome">Sell-in João Jr.</div>
+    <div class="painel-desc">Sell-in das regiões do GRV João Jr.</div>
+    <div class="badge badge-breve">Em breve</div>
+  </div>
+
+  <div class="painel-btn em-breve">
+    <div class="painel-icon">&#128200;</div>
+    <div class="painel-nome">Sell-in Jefferson</div>
+    <div class="painel-desc">Sell-in das regiões do GRV Jefferson</div>
+    <div class="badge badge-breve">Em breve</div>
+  </div>
+
+  <div class="painel-btn em-breve">
+    <div class="painel-icon">&#127968;</div>
+    <div class="painel-nome">Key Account</div>
+    <div class="painel-desc">Vendas nas grandes redes farma — Gustavo</div>
+    <div class="badge badge-breve">Em breve</div>
+  </div>
+
+  <div class="painel-btn em-breve">
+    <div class="painel-icon">&#128722;</div>
+    <div class="painel-nome">E-commerce</div>
+    <div class="painel-desc">Vendas do canal e-commerce — Nilo</div>
+    <div class="badge badge-breve">Em breve</div>
+  </div>
 
   <div class="painel-btn em-breve">
     <div class="painel-icon">&#128202;</div>
-    <div class="painel-nome">Sell-in</div>
-    <div class="painel-desc">Vendas indústria por distribuidor e região</div>
+    <div class="painel-nome">Sell-in Consolidado</div>
+    <div class="painel-desc">Resultado total de vendas indústria — acesso restrito</div>
     <div class="badge badge-breve">Em breve</div>
   </div>
 
@@ -93,6 +121,13 @@
     <div class="painel-desc">Saldos e movimentações de conta corrente</div>
     <div class="badge badge-breve">Em breve</div>
   </div>
+
+  <a class="painel-btn" href="https://md.haskellbi.com.br">
+    <div class="painel-icon">&#128230;</div>
+    <div class="painel-nome">Materiais de Divulgação</div>
+    <div class="painel-desc">Estoque, cobertura, custo e histórico de vendas dos MDs</div>
+    <div class="badge badge-ativo">No ar</div>
+  </a>
 
 </div>
 
