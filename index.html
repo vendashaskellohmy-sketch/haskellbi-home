@@ -27,12 +27,13 @@
   .marca img { width:72px; height:72px; border-radius:50%; object-fit:cover; border:3px solid rgba(255,255,255,.15); }
   .marca h1 { font-size:32px; font-weight:700; letter-spacing:2px; color:var(--branco); }
   .marca p { font-size:14px; color:rgba(255,255,255,.55); max-width:380px; line-height:1.6; }
-  .paineis { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:3rem; width:100%; max-width:960px; }
+  .paineis { display:grid; grid-template-columns:repeat(6,1fr); gap:16px; margin-bottom:3rem; width:100%; max-width:960px; }
   .painel-btn {
     background:rgba(255,255,255,.06);
     border:1px solid rgba(255,255,255,.12);
     border-radius:14px;
     padding:1.5rem 1.5rem;
+    grid-column: span 2;
     display:flex;
     flex-direction:column;
     align-items:flex-start;
@@ -71,71 +72,39 @@
 
 <div class="paineis">
 
-  <div class="painel-btn em-breve">
-    <div class="painel-icon">&#128202;</div>
-    <div class="painel-nome">Sell-in Consolidado</div>
-    <div class="painel-desc">Resultado total de vendas indústria — acesso restrito</div>
-    <div class="badge badge-breve">Em breve</div>
-  </div>
-
-  <div class="painel-btn em-breve">
-    <div class="painel-icon">&#128200;</div>
-    <div class="painel-nome">Sell-in Dionísio</div>
-    <div class="painel-desc">Sell-in das regiões do GRV Dionísio</div>
-    <div class="badge badge-breve">Em breve</div>
-  </div>
-
-  <div class="painel-btn em-breve">
-    <div class="painel-icon">&#128200;</div>
-    <div class="painel-nome">Sell-in João Jr.</div>
-    <div class="painel-desc">Sell-in das regiões do GRV João Jr.</div>
-    <div class="badge badge-breve">Em breve</div>
-  </div>
-
-  <div class="painel-btn em-breve">
-    <div class="painel-icon">&#128200;</div>
-    <div class="painel-nome">Sell-in Jefferson</div>
-    <div class="painel-desc">Sell-in das regiões do GRV Jefferson</div>
-    <div class="badge badge-breve">Em breve</div>
-  </div>
-
-  <div class="painel-btn em-breve">
-    <div class="painel-icon">&#127968;</div>
-    <div class="painel-nome">Key Account</div>
-    <div class="painel-desc">Vendas nas grandes redes farma — Gustavo</div>
-    <div class="badge badge-breve">Em breve</div>
-  </div>
-
-  <div class="painel-btn em-breve">
-    <div class="painel-icon">&#128722;</div>
-    <div class="painel-nome">E-commerce</div>
-    <div class="painel-desc">Vendas do canal e-commerce — Nilo</div>
-    <div class="badge badge-breve">Em breve</div>
-  </div>
-
-  <a class="painel-btn" href="https://cc.haskellbi.com.br">
+  <a class="painel-btn" href="https://cc.haskellbi.com.br" style="grid-column:span 3">
     <div class="painel-icon">&#128176;</div>
     <div class="painel-nome">Conta Corrente</div>
     <div class="painel-desc">Saldos e movimentações de verba comercial</div>
     <div class="badge badge-ativo">No ar</div>
   </a>
 
-  <a class="painel-btn" href="https://md.haskellbi.com.br">
+  <a class="painel-btn" href="https://md.haskellbi.com.br" style="grid-column:span 3">
     <div class="painel-icon">&#128230;</div>
     <div class="painel-nome">Materiais de Divulgação</div>
     <div class="painel-desc">Estoque, cobertura, custo e histórico de vendas dos MDs</div>
     <div class="badge badge-ativo">No ar</div>
   </a>
 
-</div>
+  <div class="painel-btn em-breve" style="grid-column:span 2">
+    <div class="painel-icon">&#128202;</div>
+    <div class="painel-nome">Sell-in</div>
+    <div class="painel-desc">Vendas indústria consolidadas</div>
+    <div class="badge badge-breve">Em breve</div>
+  </div>
 
-<div class="footer">
-  <a class="contato-btn" href="https://wa.me/5532985311440" target="_blank">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-    Entre em contato
-  </a>
-  <span class="footer-bi">Haskell BI</span>
-</div>
+  <div class="painel-btn em-breve" style="grid-column:span 2">
+    <div class="painel-icon">&#127968;</div>
+    <div class="painel-nome">Key Account</div>
+    <div class="painel-desc">Vendas nas grandes redes farma — Gustavo</div>
+    <div class="badge badge-breve">Em breve</div>
+  </div>
 
-</body>
-</html>
+  <div class="painel-btn em-breve" style="grid-column:span 2">
+    <div class="painel-icon">&#128722;</div>
+    <div class="painel-nome">E-commerce</div>
+    <div class="painel-desc">Vendas do canal e-commerce — Nilo</div>
+    <div class="badge badge-breve">Em breve</div>
+  </div>
+
+</div>
